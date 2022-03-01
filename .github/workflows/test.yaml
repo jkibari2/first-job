@@ -7,7 +7,7 @@ jobs:
   build:
 
     runs-on: [self-hosted]
-#     test_runner:
+    test_runner:
     steps:
       - uses: actions/checkout@v2
       - name: env
@@ -17,7 +17,7 @@ jobs:
 
 
 
-name: hello-word
+name: hello
 on: push
 jobs:
   build:
